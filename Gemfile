@@ -5,3 +5,5 @@ group :jekyll_plugins do
 end
 
 gem 'jekyll', '3.0.0.pre.beta2'
+
+gem 'github-pages'
