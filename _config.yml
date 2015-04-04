@@ -1,0 +1,12 @@
+# Site settings
+title: Mike Pfister
+email: pfista@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Mike Pfister's thoughts and rambles.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://pfista.io" # the base hostname & protocol for your site
+twitter_username: pfista
+github_username: pfista 
+
+# Build settings
+markdown: kramdown
