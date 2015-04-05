@@ -8,14 +8,21 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    .logo {
+        opacity: .75;
+        position: fixed;
+        left: 10px;
+        top: 10px;
+    }
 }
 
+
 .site-title {
-    font-size: 26px;
+    font-size: 38px;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+    padding: 20px 0 0 0;
+    text-align: center;
 
     &,
     &:visited {
@@ -24,8 +31,9 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
+    text-align: center;
+    font-size: 14px;
 
     .menu-icon {
         display: none;
@@ -184,12 +192,18 @@
     }
 }
 
-.post-meta {
+.post-meta-index {
     font-size: $small-font-size;
     color: $grey-color-light;
     text-transform: uppercase;
     float: right;
     line-height: 38px;
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color-light;
+    text-transform: uppercase;
 }
 
 .post-link {
