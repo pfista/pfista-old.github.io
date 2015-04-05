@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Seamless SSH: Aliases and Passwordless login"
+title: "Seamless ssh: aliases and passwordless login"
 date: 2013-08-08 17:45
 comments: true
 categories: code
