@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Social Referral Hacking
+comments: true
 
 ---
 
