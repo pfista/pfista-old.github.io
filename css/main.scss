@@ -3,15 +3,13 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     35px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -21,12 +19,28 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$cyan-color: #00BCD4;
+$blue-color-light: #42A5F5;
+$blue-color-dark: #0D47A1;
+$blue-grey-color-dark: #37474F;
+$red-color: #D32F2F;
+$red-color-dark: #E53935;
+$green-color-light: #81C784;
+$green-color-dark: #4CAF50;
+
+$background-color-dark: #212121;
+$secondary-text-color: rgba(#ffffff, 0.9);
+
+$accent-color-light: $blue-color-light;
+$accent-color-dark: $blue-color-dark;
+$link-color: $cyan-color;
+$link-color-visited: $cyan-color;
+
 // Width of the content area
 $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
 
 
 // Using media queries with like this:

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Even easier ssh with ssh-copy-id
-
+comments: true
+categories: code
 ---
 
 There's an awesome unix utility called `ssh-copy-id` that installs your public

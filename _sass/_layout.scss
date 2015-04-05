@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 6px solid $accent-color-light;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -94,11 +94,17 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: $background-color-dark;
+
+    a {
+        color: $link-color;
+    }
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    color: $secondary-text-color;
 }
 
 .contact-list,
@@ -109,7 +115,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $secondary-text-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -186,9 +192,11 @@
 .post-link {
     display: block;
     font-size: 24px;
+    color: $link-color;
+    &:visited {
+        color: $link-color-visited;
+    }
 }
-
-
 
 /**
  * Posts
