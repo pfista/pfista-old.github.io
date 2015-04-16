@@ -12,14 +12,6 @@
     animation: swim 50s ease infinite;
     -webkit-animation: swim 50s ease infinite;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
-    .logo {
-        opacity: .75;
-        position: fixed;
-        left: 10px;
-        top: 10px;
-    }
 }
 
 @-webkit-keyframes 
