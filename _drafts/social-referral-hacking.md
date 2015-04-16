@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Social Referral Hacking
+title: Social referral hacking
 comments: true
 
 ---
 
 Every pre-product launch or beta invitation I see has a social referral program.
-Sure, it builds hype and gets the word out. 
+Sure, it builds hype and gets the word out.
 
 Who has done it well?
 
