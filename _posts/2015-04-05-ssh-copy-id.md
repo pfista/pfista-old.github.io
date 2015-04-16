@@ -21,7 +21,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub some_server
 
 This is way better than how I used to do it:
 {% highlight bash %}
-cat ~/.ssh/id_rsa.pub | ssh home 'cat >> ~/.ssh/authorized_keys'`). 
+cat ~/.ssh/id_rsa.pub | ssh home 'cat >> ~/.ssh/authorized_keys'
 {% endhighlight %} 
 
 When you don't give a specific identity file with `-i`, ssh-copy-id will try to
