@@ -3,8 +3,13 @@
 ---
 @charset "utf-8";
 
+@import url(http://fonts.googleapis.com/css?family=Mandali|Montserrat);
+
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$paragraph-font-family: 'Mandali', sans-serif;
+$title-font-family: 'Montserrat', sans-serif;
+$base-font-family: Helvetica, sans-serif;
+
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -34,7 +39,8 @@ $secondary-text-color: rgba(#ffffff, 0.9);
 $accent-color-light: $blue-color-light;
 $accent-color-dark: $blue-color-dark;
 $link-color: $cyan-color;
-$link-color-visited: $cyan-color;
+$link-color-visited: $blue-grey-color-dark;
+$link-color-hover: $blue-grey-color-dark;
 
 // Width of the content area
 $content-width:    800px;

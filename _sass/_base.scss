@@ -10,6 +10,16 @@ dl, dd, ol, ul, figure {
 html {
     background: $background-color-dark;
 
+    ::-moz-selection { /* Code for Firefox */
+        color: $background-color;
+        background: $background-color-dark;
+    }
+
+    ::selection {
+        color: $background-color;
+        background: $background-color-dark;
+    }
+
 }
 
 
@@ -18,7 +28,7 @@ html {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: $paragraph-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
@@ -102,7 +112,6 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
