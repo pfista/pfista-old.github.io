@@ -41,7 +41,7 @@ If there isn't already a ```config``` file, then go ahead and create one. To add
 our alias add this to the config file:
 
 {% highlight aconf %}
-Hostname home
+Host home
     Hostname 10.0.0.1
     User myusername
     Port 22

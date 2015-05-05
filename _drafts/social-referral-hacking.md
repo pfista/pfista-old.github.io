@@ -29,12 +29,11 @@ referrals. I learned this at Final headquarters in Mountain View, since Aaron
 invited us over to practice for our YC interview. They used to try and block
 these spammers by requiring tokens, but ultimately decided fake referrals
 weren't really hurting them anyways.  Your numbers look a little higher *and*
-you have the emails of people who *really* want to use your proudct. These are
+you have the emails of people who *really* want to use your product. These are
 lighthouse customers that are die-hard enough to spend time testing shitty beta
 releases all because they like being on the "cutting edge". Yes, I'm one of
 these people and will occasionally flip shit over new product releases if the
 use cases are appealing enough.
-
 
 ## Let's get to hacking... err - spamming?
 
