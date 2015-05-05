@@ -37,13 +37,14 @@ releases if the use cases are appealing enough.
 
 ## Let's get to hacking... err - spamming?
 
-In Final's case, their signup system is so lax you could just sit there and
-sign up randomly generated emails with your original referral code with no
-problem at all. Robinhood required email verfication (clicking links after
-signup) and also required me to send a session token.
+In Final's case, their signup system is so lax you can just sit there and sign
+up randomly generated emails with your original referral code with no problem at
+all. That's great and all, but I've got better things to do than come up with
+fake email addresses. Robinhood required email verification (clicking links
+after signup) and also required me to send a session token.
 
 According to [RFC 2822](http://tools.ietf.org/html/rfc2822#section-3.4.1), the
-"local-part" of the email address (the portion before the @ sign) is 
+"local-part" of an email address (the portion before the @ sign) is 
 interpreted arbitrarily by the host. Many sites over-sanitize email addresses,
 disallowing many ascii characters that are actually perfectly valid. 
 
@@ -75,10 +76,19 @@ through `foo@bar.com`'s referral code, and both addresses will be considered
 unique and valid. This means that when referring myself, I don't have to have
 hundreds of fake email accounts set up. 
 
-With that in mind, now all you have to do is find the endpoint for the signup
-page, and write a script that makes a bunch of POST requests with uniquely
+With that in mind, all that's left to do is find the endpoint for the signup
+page and write a script that makes a bunch of POST requests with uniquely
 subaddressed emails, being sure to pass the correct headers so that your
 "target" email will actually get referral credits.
+
+Open up chrome dev tools, choose the "Network" tab, and click the "Preserve Log"
+checkbox. Then fill in your target email and sign up.
+
+You'll have to find the POST request that hits the signup endpoint. Dev Tools
+has a nice feature that allows you to right click the request and "Copy as
+cURL". This will come in handy for generating all the referrals.
+
+[image]
 
 {% highlight bash %}
 #!/bin/bash
