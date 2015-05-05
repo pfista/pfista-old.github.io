@@ -49,7 +49,7 @@ disallowing many ascii characters that are actually perfectly valid.
 
 What's important is the concept of subaddressing: 
 
->>>
+>
      Subaddressing is the practice of augmenting the local-part of an
      [RFC2822] address with some 'detail' information in order to give
      some extra meaning to that address.  One common way of encoding
