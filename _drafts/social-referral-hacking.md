@@ -3,7 +3,6 @@ layout: post
 title: Social referral hacking
 date: 2015-05-02 01:41
 comments: true
-
 ---
 
 ## What the heck is social referral hacking?
@@ -74,7 +73,7 @@ email addresses and all. More importantly, they treat subaddressed emails as
 first place in line is `foo@bar.com`, then you can sign up `foo+baz@bar.com`
 through `foo@bar.com`'s referral code, and both addresses will be considered
 unique and valid. This means that when referring myself, I don't have to have
-hundreds of fake email accounts set up. 
+hundreds of fake email accounts set up if email verification is required. 
 
 With that in mind, all that's left to do is find the endpoint for the signup
 page and write a script that makes a bunch of POST requests with uniquely
@@ -84,8 +83,8 @@ subaddressed emails, being sure to pass the correct headers so that your
 Open up chrome dev tools, choose the "Network" tab, and click the "Preserve Log"
 checkbox. Then fill in your target email and sign up.
 
-You'll have to find the POST request that hits the signup endpoint. Dev Tools
-has a nice feature that allows you to right click the request and "Copy as
+You'll have to find the POST request that hits the signup endpoint. Chrome Dev
+Tools has a nice feature that allows you to right click the request and "Copy as
 cURL". This will come in handy for generating all the referrals.
 
 [image]
