@@ -48,7 +48,7 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 10px;
         }
     }
 
@@ -60,6 +60,11 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        padding-top: 0px;
+
+        .page-link {
+          color: $text-color;
+        }
 
         .menu-icon {
             display: block;
@@ -75,7 +80,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $text-color;
                 }
             }
         }
