@@ -86,7 +86,7 @@ checkbox. Then fill in your target email and sign up.
 
 You'll have to find the POST request that hits the signup endpoint. Chrome Dev
 Tools has a nice feature that allows you to right click the request and "Copy as
-cURL". This will come in handy for generating all the referrals.
+cURL." This will come in handy for generating all the referrals.
 
 ![chrome dev tools](/img/social-referral-hacking/chrome-tools.jpg){: .center-image .shrink-50 }
 
