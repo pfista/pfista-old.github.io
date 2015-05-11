@@ -19,7 +19,7 @@ really have that many friends?
 
 ![Social Referral](/img/social-referral-hacking/thanks-signup.jpg){: .center-image .shrink-75 }
 
-I definitely didn't lose any friends from some sort of shamless referral begging
+I definitely didn't lose any friends from some sort of shameless referral begging
 that most people probably resort to. I'd say I've even gained one. After jumping
 my way to number eight on Final, I got an email from Aaron, the CEO. But it
 wasn't an email scolding me for hacking their system, but rather one thanking me
