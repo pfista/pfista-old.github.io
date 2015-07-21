@@ -21,7 +21,7 @@
                 </svg>
               </span>
 
-              <span class="username">{{ site.github_username }}</span>
+              <span class="username">Github</span>
             </a>
           </li>
           {% endif %}
@@ -36,12 +36,36 @@
                 </svg>
               </span>
 
-              <span class="username">{{ site.twitter_username }}</span>
+              <span class="username">Twitter</span>
             </a>
           </li>
           {% endif %}
+          {% if site.linkedin_url %}
+          <li>
+            <a href="{{ site.linkedin_url }}">
+              <span class="icon  icon--linkedin">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA6klEQVQ4T82T4U3DMBSE77xA2YCM0G5QJoANgBE6QOxnZwAYIWxQJiBMQDYgI3QCH7JQUAAhRe4fTrIsWb7vvbP1GGM8krxGnY5MKanO++n6CXgFsAWwWQtdAu69972ZNc659xrAwXv/aGZb59xbDQCSRpIlwmp9RZD05JzrJRXAA4ADyTHnfFP2OR5JI3k7V1gCYgjBuq7bS3ohedW27WBmF2Z2WraUUpoAXH77BUl/ARqS5U2mEMKumGKMpYuwCrC8nHPemdlYDZhj/VMAgIHkIKkBcAegJzlJ2gMoq+jX2fnDdM44S3r+AHlM3L8fFwzDAAAAAElFTkSuQmCC"/>
+                </svg>
+              </span>
+
+              <span class="username">LinkedIn</span>
+            </a>
+          </li>
+          {% endif %}
+          {% if site.vimeo_url %}
+          <li>
+            <a href="{{ site.vimeo_url }}">
+              <span class="icon  icon--linkedin">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQ0lEQVQ4T6VSYVnDQAzNOwVDAUXBhoOigKEAUAAI6CXXGgAFgIINB0XBhoPhYAoufOl3he7a/iI/X5KXl7yA/hnI+0VkZZiI7CdyC+fcEkCpqq33/vOXQEQK59wrEZXWCOCmqqptT9I0TRlj3ABY9Jiqho5gJrln5sukpgCwGzYbrqpH1HV9R0Q2eRQxxjMROYYQngGsieg8L4IlieiYZPOwAMBVVVVtj4UQtgCuBzV/NzCwrutDNuXJe28DupgguD9xIUl9GBzpnZltRXNl5ZzbDaZ/e++LE4K8SFUPzHyR1Jmty56gX2/0B/kaAERVCyLqlKTrB2aW7m75VUMIbwBup1xJzR/MbI50MSJommatqpsZgq8YY2nWzhLMuGHwqHlSgYG5ClV9YebHKVWjFfoie287XoyxFRH7j8mYJZhryPEfjsqgN8XWCNQAAAAASUVORK5CYII="/>
+                </svg>
+              </span>
+              <span class="username">Vimeo</span>
+            </a>
+          </li>
+          {% endif %} 
         </ul>
       </div>
+
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>

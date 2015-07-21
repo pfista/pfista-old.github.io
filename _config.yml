@@ -7,6 +7,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://michaelpfister.com" # the base hostname & protocol for your site
 twitter_username: pfista
 github_username: pfista 
+linkedin_url: "https://www.linkedin.com/in/mikepfister"
+linkedin_name: "LinkedIn"
+vimeo_url: "https://vimeo.com/pfista"
 
 # Build settings
 markdown: kramdown
