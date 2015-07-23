@@ -10,11 +10,11 @@ bg: "/img/mike3.jpg"
 
 Mike is a founder of Apotact Labs and currently lives in Austin, Texas.
 
-Built upon a foundation and love of technology, his passion for
-entrepreneurship is further motivated by his fascination with film and design.
-While not busy running Apotact (which is rare), Mike is also a freelance
-videographer who has completed work around the world, having received 
-awards for his cinematography and editing in local film festivals.
+Entrepreneurship revealed itself early in Mike's life while he pursued a unique
+combination of computer science and film. As a result, Mike brings a diverse
+set of talents to his founding role in Apotact Labs, overseeing hardware,
+software, design and fundraising. Additionally he continues to expand his
+accomplishments as a freelance videographer when time allows.
 
 Mike previously worked as a full-stack developer and iOS engineer, designing
 and building apps from start to finish. He uses vim as much as possible.
