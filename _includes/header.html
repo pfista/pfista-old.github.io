@@ -1,9 +1,10 @@
 <header class="site-header">
+
   <div class="site-bg">
        {% if page.bg %}
        <style>
       .site-bg {
-          background: linear-gradient(rgba(50,50,50,.80), rgba(50,50,50,.80)), url({{ page.bg }}) no-repeat center {% if page.bgoffset %}{{page.bgoffset}}{% else %} center {% endif} %} fixed;
+          background: linear-gradient(rgba(50,50,50,.50), rgba(50,50,50,.50)), url({{ page.bg }}) no-repeat center center;
          -webkit-background-size: cover;
          -moz-background-size: cover;
          -o-background-size: cover;

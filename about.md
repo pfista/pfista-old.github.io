@@ -3,7 +3,6 @@ layout: page
 title: About
 permalink: /about/
 bg: "/img/mike3.jpg"
-bgoffset: bottom
 
 ---
 
