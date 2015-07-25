@@ -2,6 +2,8 @@
 layout: post
 title: Social referral hacking
 comments: true
+bg: "/img/poly.jpg"
+
 ---
 
 ## What the heck is social referral hacking?

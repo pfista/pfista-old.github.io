@@ -2,8 +2,8 @@
 layout: page
 title: About
 permalink: /about/
-bgoffset: -400px
 bg: "/img/mike3.jpg"
+bgoffset: bottom
 
 ---
 
