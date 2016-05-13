@@ -1,0 +1,52 @@
+==================================================================
+https://keybase.io/pfista
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://michaelpfister.com
+  * I am pfista (https://keybase.io/pfista) on keybase.
+  * I have a public key ASAmduaeRFtCK3-FlSq6mXrAykb7_1fND__yytXxAJ5gJQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01018a75aac503cee887ab4ef4771fc89aa3ce0aa0dc6029d67e55c8c38397d5456d0a",
+            "host": "keybase.io",
+            "kid": "01202676e69e445b422b7f85952aba997ac0ca46fbff57cd0ffff2cad5f1009e60250a",
+            "uid": "89e6ffa3662dfc13b33930ae667c0600",
+            "username": "pfista"
+        },
+        "service": {
+            "hostname": "michaelpfister.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.15"
+    },
+    "ctime": 1463162038,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1463162011,
+        "hash": "b6cc01ef4c32395a7912ebe7d5af37480cdaf4b60816ddb1eb6796b4c519f81075324e178a590c20fc9130d8b8a19d678aaa914f721a7ee355d50b3df6c0367e",
+        "seqno": 463152
+    },
+    "prev": "054c1fdd454a4b7ed341b0f8c23c81bba6fb1c3d2cf018caecf3368fba19f4c3",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJnbmnkRbQit/hZUqupl6wMpG+/9XzQ//8srV8QCeYCUKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOGE3NWFhYzUwM2NlZTg4N2FiNGVmNDc3MWZjODlhYTNjZTBhYTBkYzYwMjlkNjdlNTVjOGMzODM5N2Q1NDU2ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjY3NmU2OWU0NDViNDIyYjdmODU5NTJhYmE5OTdhYzBjYTQ2ZmJmZjU3Y2QwZmZmZjJjYWQ1ZjEwMDllNjAyNTBhIiwidWlkIjoiODllNmZmYTM2NjJkZmMxM2IzMzkzMGFlNjY3YzA2MDAiLCJ1c2VybmFtZSI6InBmaXN0YSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWljaGFlbHBmaXN0ZXIuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNSJ9LCJjdGltZSI6MTQ2MzE2MjAzOCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDYzMTYyMDExLCJoYXNoIjoiYjZjYzAxZWY0YzMyMzk1YTc5MTJlYmU3ZDVhZjM3NDgwY2RhZjRiNjA4MTZkZGIxZWI2Nzk2YjRjNTE5ZjgxMDc1MzI0ZTE3OGE1OTBjMjBmYzkxMzBkOGI4YTE5ZDY3OGFhYTkxNGY3MjFhN2VlMzU1ZDUwYjNkZjZjMDM2N2UiLCJzZXFubyI6NDYzMTUyfSwicHJldiI6IjA1NGMxZmRkNDU0YTRiN2VkMzQxYjBmOGMyM2M4MWJiYTZmYjFjM2QyY2YwMThjYWVjZjMzNjhmYmExOWY0YzMiLCJzZXFubyI6MTgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAbrA0DJcZ46ahDvc1AsUJyNyIICOXOX8T/23Ts+kdu2bhKp8bPsb+y1pgEg3KuODG89fZQSjlCssonSXXzdflA6hzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/pfista
