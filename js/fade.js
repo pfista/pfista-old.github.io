@@ -12,11 +12,11 @@ for (l in links) {
         }
         element.style.opacity = op;
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
-        op -= op * 0.5;
-    }, 40);
+        op -= op * .45;
+    }, 25);
 
     setTimeout( function () {
       window.location = href;
-    }, 300);
+    }, 200);
   };
 }
