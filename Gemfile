@@ -1,5 +1,12 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
-gem 'jekyll-sitemap', group: :jekyll_plugins
-gem 'jekyll-compose', group: :jekyll_plugins
+ruby '2.3.0'
+
+group :jekyll_plugins do
+      gem 'jekyll-compose'
+      gem 'jekyll-sitemap'
+end
+
+# gem 'jekyll', '3.0.0.pre.beta2'
+
+gem 'github-pages'
